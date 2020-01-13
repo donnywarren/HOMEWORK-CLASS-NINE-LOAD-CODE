@@ -1,0 +1,85 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.color-selector-box-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.selection-btn {
+  height: 100px;
+  width: 150px;
+  border: 1px solid #111;
+  margin: 50px 5px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 7px 9px #969595;
+  outline: none;
+}
+
+
+.red {
+  background-color: red;
+}
+.red:hover {
+  background-color: #cc0302;
+}
+.red:active {
+  background-color: red;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
+}
+
+.green {
+  background-color: green;
+}
+.green:hover {
+  background-color: #016101;
+}
+.green:active {
+  background-color: green;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
+}
+
+.blue {
+  background-color: blue;
+}
+.blue:hover {
+  background-color: #0101a9;
+}
+.blue:active {
+  background-color: blue;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
+}
+
+.landing-box-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#landing-box {
+  height: 500px;
+  width: 902px;
+  border: 1px solid #111;
+  overflow: hidden;
+}
+
+.result-box {
+  display: inline-block;
+  margin-top: -3px;
+  width: 100px;
+  height: 100px;
+}
