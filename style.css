@@ -17,13 +17,13 @@ html {
 .selection-btn {
   height: 100px;
   width: 150px;
-  border: 1px solid #111;
+  border: 1px solid #000;
   margin: 50px 5px;
   color: #fff;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
-  box-shadow: 7px 9px #969595;
+  box-shadow: 7px 9px 8px #969595;
   outline: none;
 }
 
