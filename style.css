@@ -36,7 +36,7 @@ html {
 }
 .red:active {
   background-color: red;
-  box-shadow: 2px 5px #666;
+  box-shadow: 2px 5px 4px #666;
   transform: translateY(4px);
 }
 
@@ -48,7 +48,7 @@ html {
 }
 .green:active {
   background-color: green;
-  box-shadow: 2px 5px #666;
+  box-shadow: 2px 5px 4px #666;
   transform: translateY(4px);
 }
 
@@ -60,7 +60,7 @@ html {
 }
 .blue:active {
   background-color: blue;
-  box-shadow: 2px 5px #666;
+  box-shadow: 2px 5px 4px #666;
   transform: translateY(4px);
 }
 
