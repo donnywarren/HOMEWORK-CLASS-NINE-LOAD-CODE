@@ -38,4 +38,6 @@ document.getElementById("red-btn").addEventListener("click",createRedBox);
       console.log("purple button was clicked")
     }
 
+  document.getqueryall()
+
 });
